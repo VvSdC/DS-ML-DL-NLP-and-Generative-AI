@@ -8,15 +8,13 @@ Flask is a lightweight **WSGI web application framework** designed to make getti
 
 The "micro" in micro-framework does not mean that your whole web application has to fit into a single Python file (although it can), nor does it mean that Flask is lacking in functionality. 
 
-- **Minimalism:** Flask provides the bare essentials (routing, request handling, and templating).
-- **Flexibility:** Unlike "batteries-included" frameworks (like Django), Flask doesn't force a specific database or folder structure on you.
-- **Extensibility:** It allows you to use only the extensions you need (e.g., for Form validation, Database ORMs, or Authentication).
+* **Minimalism:** Flask provides the bare essentials (routing, request handling, and templating).
+* **Flexibility:** Unlike "batteries-included" frameworks (like Django), Flask doesn't force a specific database or folder structure on you.
+* **Extensibility:** It allows you to use only the extensions you need (e.g., for Form validation, Database ORMs, or Authentication).
 
 ---
 
 ## 🏗️ The Two Pillars of Flask
-
-
 
 ### 1. WSGI (Web Server Gateway Interface)
 WSGI is a standardized protocol that allows a web server to talk to a Python application. Flask relies on **Werkzeug**, a powerful WSGI utility library, to handle:
